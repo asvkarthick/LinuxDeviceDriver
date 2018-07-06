@@ -1,6 +1,8 @@
 # LinuxDeviceDriver
 Repository to learn Linux Device Driver Development
 
+All these kernel modules have been tested exclusively on Beaglebone Black with Linux Kernel 3.8
+
 Installing the cross compiler toolchain on Ubuntu
 
 ```
