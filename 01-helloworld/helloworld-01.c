@@ -13,4 +13,5 @@ static void __exit helloworld_exit(void)
 
 module_init(helloworld_init);
 module_exit(helloworld_exit);
+MODULE_AUTHOR("Karthick Kumaran <asvkarthick@gmail.com>");
 MODULE_LICENSE("GPL");
