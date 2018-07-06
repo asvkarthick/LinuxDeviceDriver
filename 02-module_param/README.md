@@ -1,12 +1,12 @@
 Building the kernel module:
 ---------------------------
 
-make -C </path-to-kernel> M=$(pwd) ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
+make -C < /path-to-kernel> M=$(pwd) ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
 
 Cleaning the kernel module:
 ---------------------------
 
-make -C </path-to-kernel> M=$(pwd) ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
+make -C < /path-to-kernel> M=$(pwd) ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
 
 Running the kernel module on Beaglebone:
 ----------------------------------------
