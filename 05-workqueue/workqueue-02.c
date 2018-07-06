@@ -20,7 +20,7 @@ struct work_data {
 static void work_handler(struct work_struct *work)
 {
 	struct work_data *my_data = container_of(work, \
-	struct work_data, my_work);
+				struct work_data, my_work);
 
 	printk("Work queue module handler: %s, data is %d\n", __FUNCTION__, my_data->the_data);
 	msleep(2000);
