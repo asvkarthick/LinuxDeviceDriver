@@ -3,7 +3,7 @@
 #include <linux/interrupt.h>
 
 /* for tasklets API */
-char tasklet_data[]="We use a string; but it could be pointer to a structure";
+char tasklet_data[] = "We use a string; but it could be pointer to a structure";
 
 /* Tasklet handler, that just print the data */
 void tasklet_work(unsigned long data)
